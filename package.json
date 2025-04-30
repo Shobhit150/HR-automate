@@ -9,15 +9,29 @@
     "lint": "next lint"
   },
   "dependencies": {
+    "@shadcn/ui": "^0.0.4",
+    "cohere-ai": "^7.17.1",
+    "formidable": "^3.5.4",
+    "mammoth": "^1.9.0",
+    "natural": "^8.0.1",
+    "next": "15.3.1",
+    "pdf-parse": "^1.1.1",
+    "pdf2json": "^3.1.5",
+    "pdfjs-dist": "^5.2.133",
+    "pdfreader": "^3.0.7",
     "react": "^19.0.0",
     "react-dom": "^19.0.0",
-    "next": "15.3.1"
+    "react-dropzone": "^14.3.8",
+    "react-icons": "^5.5.0",
+    "uuid": "^11.1.0",
+    "wink-eng-lite-web-model": "^1.8.1",
+    "wink-nlp": "^2.3.2"
   },
   "devDependencies": {
+    "@eslint/eslintrc": "^3",
     "@tailwindcss/postcss": "^4",
-    "tailwindcss": "^4",
     "eslint": "^9",
     "eslint-config-next": "15.3.1",
-    "@eslint/eslintrc": "^3"
+    "tailwindcss": "^4.1.4"
   }
 }
