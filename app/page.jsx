@@ -217,7 +217,7 @@ export default function Home() {
   };
 
   return (
-    <div className="max-w-xl mx-auto p-8 space-y-6 text-black">
+    <div className="max-w-xl mx-auto p-8 space-y-6 ">
       <h1 className="text-4xl font-bold text-center">📄 Resume Scanner</h1>
 
 
@@ -333,7 +333,7 @@ export default function Home() {
           {/* <h3 className="font-bold mt-4 text-black">📄 Extracted Text:</h3> */}
           {/* <p className="text-gray-700 text-sm whitespace-pre-line">{extractedText}</p> */}
           {result && (
-            <div className="mt-6 rounded">
+            <div className="mt-6 rounded text-black">
               <h2 className="text-xl font-bold mb-4">Resume Analysis</h2>
 
               <div className="mb-4">
